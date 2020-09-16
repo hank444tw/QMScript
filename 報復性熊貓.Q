@@ -50,7 +50,7 @@ If intX > 0 And intY > 0 Then
 		//	尋找"交換時段"圖片，開搶
 		FindColorEx 450,317,569,1057,"AD7F59",0,0.9,intX,intY //模糊找色
 		If intX > 0 And intY > 0 Then 
-			MoveTo intX-40, intY+5
+			MoveTo intX, intY+5
 			Delay 50
 			LeftClick 1
 			Delay 125
@@ -83,7 +83,7 @@ If intX > 0 And intY > 0 Then
 
 End If
 
-Delay 300
+Delay 200
 
 
 
