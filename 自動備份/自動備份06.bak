@@ -50,22 +50,22 @@ If intX > 0 And intY > 0 Then
 		//	尋找"交換時段"圖片，開搶
 		FindColorEx 450,317,569,1057,"AD7F59",0,0.9,intX,intY //模糊找色
 		If intX > 0 And intY > 0 Then 
-			MoveTo intX-40, intY+5
+			MoveTo intX, intY+5
 			Delay 50
 			LeftClick 1
 			Delay 125
 			
 			//選時段按鈕
-//			MoveTo 403,435
-//			Delay 100
-//			LeftClick 1
-//			Delay 150
-			
-			//取消按鈕
-			MoveTo 174,437
+			MoveTo 403,435
 			Delay 100
 			LeftClick 1
 			Delay 150
+			
+			//取消按鈕
+//			MoveTo 174,437
+//			Delay 100
+//			LeftClick 1
+//			Delay 150
 	
 			//點旁邊跳開，以防沒搶到
 			MoveTo 405,135
@@ -83,7 +83,7 @@ If intX > 0 And intY > 0 Then
 
 End If
 
-Delay 300
+Delay 2000
 
 
 

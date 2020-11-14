@@ -83,7 +83,7 @@ If intX > 0 And intY > 0 Then
 
 End If
 
-Delay 200
+Delay 1000
 
 
 
